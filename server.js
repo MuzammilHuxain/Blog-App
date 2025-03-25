@@ -7,7 +7,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://insaneuser8410:T_RWmsUmMzK_Y.6@cluster0.dlmo2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://<db_username>:<db_password>@cluster0.dlmo2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
